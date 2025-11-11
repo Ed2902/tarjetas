@@ -8,7 +8,7 @@ const cards = [
       avatarUrl: null,
     },
     brand: {
-      logoUrl: '/src/assets/Green.png',
+      logoUrl: '../assets/Green.png',
       theme: 'greenway',
       gradient: 'brand-135',
     },
@@ -38,7 +38,7 @@ const cards = [
       avatarUrl: null,
     },
     brand: {
-      logoUrl: '/src/assets/Green.png',
+      logoUrl: '../assets/Green.png',
       theme: 'greenway',
       gradient: 'brand-90',
     },
@@ -46,7 +46,7 @@ const cards = [
       'Lideramos operaciones internacionales confiables y sostenibles, integrando brokeraje, análisis de mercados y tecnología aplicada. A través de innovación, inteligencia comercial y soluciones digitales, conectamos empresas con nuevas oportunidades globales de manera ágil y segura.',
     contact: {
       phone: '+57 318 212 3378',
-      email: 'gsanzhes@fastwaysas.com',
+      email: 'gsanchez@fastwaysas.com',
       whatsapp: '+57 318 212 3378',
       greeting:
         'Hola Gina, me interesa conocer las soluciones tecnológicas y de brokeraje de GreenWay para expansión internacional.',
