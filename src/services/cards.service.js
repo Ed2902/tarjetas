@@ -8,7 +8,7 @@ const cards = [
       avatarUrl: null,
     },
     brand: {
-      logoUrl: '../assets/Green.png',
+      logoUrl: '../../public/Green.png',
       theme: 'greenway',
       gradient: 'brand-135',
     },
@@ -38,7 +38,7 @@ const cards = [
       avatarUrl: null,
     },
     brand: {
-      logoUrl: '../assets/Green.png',
+      logoUrl: '../../public/Green.png',
       theme: 'greenway',
       gradient: 'brand-90',
     },
