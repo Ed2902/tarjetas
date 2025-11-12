@@ -101,67 +101,83 @@
   border: 1px dashed rgba(247, 76, 27, 0.4);
 }
 
-/* CONTACT PILLS */
+/* ========================================================= */
+/* ======================= CONTACT PILLS ==================== */
+/* ========================================================= */
+
 .fw-contact-pills {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
   gap: 10px;
-  margin-top: 14px;
+  margin-top: 16px;
 }
 
-/* Botones ajustados para no salirse */
-.fw-pill {
-  flex: 0 0 auto;
-  min-width: 0;
-  display: inline-flex;
-  align-items: center;
+/* Fila de botones */
+.fw-contact-row {
+  display: flex;
   justify-content: center;
-  gap: 8px;
-  padding: 9px 18px;
+  gap: 10px;
+}
+
+.fw-contact-row--center {
+  justify-content: center;
+}
+
+/* Botones (pills) */
+.fw-pill {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding: 8px 16px;
   border-radius: 999px;
   font-size: 0.78rem;
   font-weight: 600;
   text-decoration: none;
   border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  white-space: nowrap;
+  cursor: pointer;
   transition: transform 0.16s ease, box-shadow 0.16s ease,
     background-color 0.16s ease, border-color 0.16s ease;
-  cursor: pointer;
-  white-space: nowrap;
+  max-width: 180px; /* seguridad extra */
 }
 
+/* Iconos */
 .fw-pill-icon {
   display: grid;
   place-items: center;
 }
 
-.fw-pill-label {
-  letter-spacing: 0.01em;
+.fw-pill-icon svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* Variantes */
 .fw-pill--wa {
   background: linear-gradient(90deg, var(--fw-accent-green), #20d56f);
   color: #ffffff;
-  box-shadow: 0 10px 22px rgba(0, 186, 89, 0.4);
+  box-shadow: 0 8px 16px rgba(0, 186, 89, 0.35);
 }
 
 .fw-pill--mail {
   background: #ffffff;
   color: var(--fw-text-main);
   border-color: rgba(89, 161, 247, 0.7);
-  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 6px 14px rgba(15, 23, 42, 0.12);
 }
 
 .fw-pill--phone {
   background: var(--fw-primary);
   color: #ffffff;
-  box-shadow: 0 10px 22px rgba(247, 76, 27, 0.45);
+  box-shadow: 0 8px 18px rgba(247, 76, 27, 0.4);
 }
 
 .fw-pill:hover {
   transform: translateY(-2px);
-  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.22);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.22);
 }
 
 /* CONTACT INLINE */
@@ -216,12 +232,11 @@
   background: #ffffff;
   border: 1px solid rgba(148, 163, 184, 0.6);
   text-decoration: none;
-  transition: transform 0.16s ease, box-shadow 0.16s ease,
-    border-color 0.16s ease, background-color 0.16s ease;
+  transition: 0.16s ease;
   color: var(--fw-text-main);
 }
 
-/* Variantes de color redes */
+/* Variantes redes */
 .fw-social--web {
   border-color: var(--fw-secondary);
 }
@@ -240,12 +255,12 @@
 
 .fw-social:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 26px rgba(15, 23, 42, 0.25);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.25);
   background: #fef2ec;
 }
 
 /* RESPONSIVE */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .fw-header {
     padding-inline: 14px;
   }
@@ -258,13 +273,13 @@
     font-size: 1.1rem;
   }
 
-  .fw-contact-pills {
-    flex-direction: column;
-    align-items: stretch;
+  /* En móvil también se mantienen como pills, no barra completa */
+  .fw-contact-row {
+    justify-content: center;
   }
 
   .fw-pill {
-    width: 100%;
-    justify-content: center;
+    font-size: 0.76rem;
+    padding: 7px 14px;
   }
 }

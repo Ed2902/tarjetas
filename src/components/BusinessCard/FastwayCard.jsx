@@ -28,7 +28,6 @@ export default function FastwayCard({ card }) {
   const tel = buildTelLink(contact?.phone)
 
   return (
-    // ya NO estiramos el artículo, solo centramos
     <main className='min-h-dvh grid place-items-center py-6'>
       <article
         className='fw-card mx-auto w-full max-w-[420px]'
@@ -61,25 +60,31 @@ export default function FastwayCard({ card }) {
         <section className='fw-body' data-aos='fade-up' data-aos-delay='60'>
           {about && <p className='fw-about'>{about}</p>}
 
+          {/* BOTONES */}
           <div className='fw-contact-pills'>
-            <ContactPill
-              href={wa}
-              label='WhatsApp'
-              icon={<WhatsappLogo size={18} weight='fill' />}
-              variant='wa'
-            />
-            <ContactPill
-              href={mail}
-              label='Correo'
-              icon={<EnvelopeSimple size={18} weight='fill' />}
-              variant='mail'
-            />
-            <ContactPill
-              href={tel}
-              label='Llamar'
-              icon={<PhoneCall size={18} weight='fill' />}
-              variant='phone'
-            />
+            <div className='fw-contact-row'>
+              <ContactPill
+                href={wa}
+                label='WhatsApp'
+                icon={<WhatsappLogo size={18} weight='fill' />}
+                variant='wa'
+              />
+              <ContactPill
+                href={mail}
+                label='Correo'
+                icon={<EnvelopeSimple size={18} weight='fill' />}
+                variant='mail'
+              />
+            </div>
+
+            <div className='fw-contact-row fw-contact-row--center'>
+              <ContactPill
+                href={tel}
+                label='Llamar'
+                icon={<PhoneCall size={18} weight='fill' />}
+                variant='phone'
+              />
+            </div>
           </div>
 
           <div className='fw-contact-inline'>
