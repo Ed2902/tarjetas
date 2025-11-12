@@ -104,6 +104,7 @@
 /* CONTACT PILLS */
 .fw-contact-pills {
   display: flex;
+  max-width: 230px;
 
   gap: 10px;
   margin-top: 14px;
