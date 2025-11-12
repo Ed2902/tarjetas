@@ -1,4 +1,5 @@
 const cards = [
+  // === GREENWAY: Gian Carlo ===
   {
     slug: 'gian-carlo-avendano',
     person: {
@@ -29,6 +30,8 @@ const cards = [
       linkedin: 'https://es.linkedin.com/company/fastway-sas',
     },
   },
+
+  // === GREENWAY: Gina ===
   {
     slug: 'gina-sanchez',
     person: {
@@ -57,6 +60,70 @@ const cards = [
       instagram:
         'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
       linkedin: 'https://es.linkedin.com/company/fastway-sas',
+    },
+  },
+
+  // =====================================================================
+  // =========================== FASTWAY ==================================
+  // =====================================================================
+
+  // === FASTWAY: Gian Carlo ===
+  {
+    slug: 'gian-carlo-avendano-fastway',
+    person: {
+      name: 'Gian Carlo Avendaño',
+      title: 'Líder de Innovación',
+      company: 'Fast Way Logistic SAS, BIC',
+      avatarUrl: null,
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'fastway',
+    },
+    about:
+      'Somos una empresa dedicada a la logística y al comercio internacional. Diseñamos soluciones integrales para pequeños y medianos empresarios que quieren incursionar en mercados internacionales, expandir y escalar sus negocios, transportar eficientemente sus mercancías y establecer sistemas de distribución efectivos, con un enfoque consultivo y personalizado.',
+    contact: {
+      phone: '+1 (786) 661-0046',
+      email: 'gcavendano@fastwaysas.com',
+      whatsapp: '+1 786 661 0046',
+      greeting:
+        '¡Hola Gian Carlo! Busco asesoría en logística internacional y comercio exterior con Fastway para expandir mi negocio.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/es',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram: 'https://www.instagram.com/fastway/?hl=es',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+  },
+
+  // === FASTWAY: Gina ===
+  {
+    slug: 'gina-sanchez-fastway',
+    person: {
+      name: 'Gina Sánchez',
+      title: 'Gerente General',
+      company: 'Fast Way Logistic SAS, BIC',
+      avatarUrl: null,
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'fastway',
+    },
+    about:
+      'Gestionamos logística internacional, logística nacional y comercio exterior, integrando además soluciones de logística circular. optimizando la cadena de valor de importaciones y exportaciones.',
+    contact: {
+      phone: '+57 318 212 3378',
+      email: 'gsanchez@fastwaysas.com',
+      whatsapp: '+57 318 212 3378',
+      greeting:
+        'Hola Gina, quiero conocer cómo Fastway puede apoyar la logística internacional y la logística circular de mi empresa.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/es',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram: 'https://www.instagram.com/fastway/?hl=es',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
 ]
