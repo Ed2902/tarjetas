@@ -142,7 +142,7 @@ const cards = [
       supportLogos: [{ url: './Green.png' }, { url: './Harvest.webp' }],
     },
     about:
-      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+      'Somos un grupo de empresas que impulsa el desarrollo del bienestar integrando soluciones tecnológicas, comerciales y sostenibles, con servicios de logística internacional y economía circular.',
     contact: {
       phone: '+57 318 212 3378',
       email: 'gsanchez@fastwaysas.com',
@@ -180,7 +180,7 @@ const cards = [
       ],
     },
     about:
-      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+      'Somos un grupo de empresas que impulsa el desarrollo del bienestar integrando soluciones tecnológicas, comerciales y sostenibles, con servicios de logística internacional y economía circular.',
     contact: {
       phone: '+57 320 321 4083',
       email: 'asistentecomercial@fastwaysas.com',
@@ -213,7 +213,7 @@ const cards = [
       ],
     },
     about:
-      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+      'Somos un grupo de empresas que impulsa el desarrollo del bienestar integrando soluciones tecnológicas, comerciales y sostenibles, con servicios de logística internacional y economía circular.',
     contact: {
       phone: '+57 314 300 2760',
       email: 'Insales2@fastwaysas.com',
