@@ -7,7 +7,7 @@ export default function CardList({ cards }) {
   return (
     <div className='card-list'>
       {cards.map((c, i) => {
-        const isFastway = c?.brand?.theme === 'fastway'
+        const theme = c?.brand?.theme
 
         return (
           <motion.div
@@ -18,7 +18,13 @@ export default function CardList({ cards }) {
           >
             <Link to={`/cards/${c.slug}`} className='card-item'>
               <div
-                className={isFastway ? 'preview fastway' : 'preview greenway'}
+                className={
+                  theme === 'fastway'
+                    ? 'preview fastway'
+                    : theme === 'group'
+                    ? 'preview group'
+                    : 'preview greenway'
+                }
               >
                 <div className='preview-header' />
                 <div className='preview-body'>

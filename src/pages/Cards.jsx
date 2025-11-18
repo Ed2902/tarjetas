@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { getCards, getCardBySlug } from '../services/cards.service'
 import BusinessCard from '../components/BusinessCard/BusinessCard'
 import FastwayCard from '../components/BusinessCard/FastwayCard'
+import GroupFastwayCard from '../components/BusinessCard/Group-FastwayCard' // 👈 NUEVO
 import CardList from '../components/CardList'
 
 export default function CardsPage() {
@@ -12,13 +13,19 @@ export default function CardsPage() {
     const card = getCardBySlug(slug)
     if (!card) return null
 
-    const isFastway =
-      card?.brand?.theme === 'fastway' || card?.slug === 'fastway'
+    const theme = card?.brand?.theme
+    const isFastway = theme === 'fastway' || card?.slug === 'fastway'
+    const isGroup = theme === 'group'
 
     if (isFastway) {
       return <FastwayCard card={card} />
     }
 
+    if (isGroup) {
+      return <GroupFastwayCard card={card} />
+    }
+
+    // Greenway u otros temas
     return <BusinessCard card={card} />
   }
 

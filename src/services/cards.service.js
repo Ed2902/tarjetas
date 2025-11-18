@@ -126,6 +126,109 @@ const cards = [
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
+
+  // === GROUP: Gina ===
+  {
+    slug: 'gina-sanchez-group',
+    person: {
+      name: 'Gina Sánchez',
+      title: 'Gerente General',
+      company: '',
+      avatarUrl: './Gina.png',
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'group',
+      supportLogos: [{ url: './Green.png' }, { url: './Harvest.webp' }],
+    },
+    about:
+      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+    contact: {
+      phone: '+57 318 212 3378',
+      email: 'gsanchez@fastwaysas.com',
+      whatsapp: '+57 318 212 3378',
+      greeting:
+        'Hola Gina, quiero conocer las soluciones y oportunidades que ofrece el Group.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram:
+        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+    supportLogos: [
+      { url: './Green.png', href: 'https://www.greenwayinter.com/' },
+      { url: './Harvest.webp', href: 'https://metalharvest.io/' },
+    ],
+  },
+
+  {
+    slug: 'eliana-puentes-group',
+    person: {
+      name: 'Eliana Puentes Perilla',
+      title: 'Asistente de gerencia',
+      company: '',
+      avatarUrl: './Eliana.png',
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'group',
+      supportLogos: [
+        { url: './Green.png', href: 'https://www.greenwayinter.com/' },
+        { url: './Harvest.webp', href: 'https://metalharvest.io/' },
+      ],
+    },
+    about:
+      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+    contact: {
+      phone: '+57 320 321 4083',
+      email: 'asistentecomercial@fastwaysas.com',
+      whatsapp: '+57 320 321 4083',
+      greeting:
+        'Hola Eliana, deseo recibir información sobre los servicios y soluciones del grupo.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram:
+        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+  },
+  {
+    slug: 'karen-gonzalez-group',
+    person: {
+      name: 'Karen Julieth Gonzalez Valencia',
+      title: 'Analista agenciamiento de carga',
+      company: '',
+      avatarUrl: './karen.png',
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'group',
+      supportLogos: [
+        { url: './Green.png', href: 'https://www.greenwayinter.com/' },
+        { url: './Harvest.webp', href: 'https://metalharvest.io/' },
+      ],
+    },
+    about:
+      'Somos un grupo de empresas que impulsa el desarrollo y el bienestar, creando soluciones tecnológicas, económicas y sostenibles para nuestros aliados.',
+    contact: {
+      phone: '+57 314 300 2760',
+      email: 'Insales2@fastwaysas.com',
+      whatsapp: '+57 314 300 2760',
+      greeting:
+        'Hola Karen, deseo recibir información sobre los servicios y soluciones del grupo.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram:
+        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+  },
 ]
 
 export function getCards() {
