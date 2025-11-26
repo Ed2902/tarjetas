@@ -229,6 +229,39 @@ const cards = [
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
+  {
+    slug: 'andres-barrera-group',
+    person: {
+      name: 'Andres Felipe Barrera Rodriguez',
+      title: 'Líder de Proyectos',
+      company: '',
+      avatarUrl: './AndresBarrera.png',
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'group',
+      supportLogos: [
+        { url: './Green.png', href: 'https://www.greenwayinter.com/' },
+        { url: './Harvest.webp', href: 'https://metalharvest.io/' },
+      ],
+    },
+    about:
+      'Somos un grupo de empresas que impulsa el desarrollo del bienestar integrando soluciones tecnológicas, comerciales y sostenibles, con servicios de logística internacional y economía circular.',
+    contact: {
+      phone: '+573028583784',
+      email: 'proyectos@fastwaysas.com',
+      whatsapp: '+573028583784',
+      greeting:
+        'Hola Andrés, deseo recibir información sobre los productos y soluciones para mi empresa.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram:
+        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+  },
 ]
 
 export function getCards() {
