@@ -25,8 +25,7 @@ const cards = [
     socials: {
       web: 'https://www.greenwayinter.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/greenwayllc/',
       linkedin: 'https://es.linkedin.com/company/fastway-sas',
     },
   },
@@ -57,17 +56,13 @@ const cards = [
     socials: {
       web: 'https://www.greenwayinter.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/greenwayllc/',
       linkedin: 'https://es.linkedin.com/company/fastway-sas',
     },
   },
 
-  // =====================================================================
-  // =========================== FASTWAY ==================================
-  // =====================================================================
+  // ================= FASTWAY =================
 
-  // === FASTWAY: Gian Carlo ===
   {
     slug: 'gian-carlo-avendano-fastway',
     person: {
@@ -92,12 +87,11 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/es',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/?hl=es',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
 
-  // === FASTWAY: Gina ===
   {
     slug: 'gina-sanchez-fastway',
     person: {
@@ -122,12 +116,13 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/es',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/?hl=es',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
 
-  // === GROUP: Gina ===
+  // ================= GROUP =================
+
   {
     slug: 'gina-sanchez-group',
     person: {
@@ -153,14 +148,9 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
-    supportLogos: [
-      { url: './Green.png', href: 'https://www.greenwayinter.com/' },
-      { url: './Harvest.webp', href: 'https://metalharvest.io/' },
-    ],
   },
 
   {
@@ -191,11 +181,11 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
+
   {
     slug: 'karen-gonzalez-group',
     person: {
@@ -224,11 +214,11 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
+
   {
     slug: 'andres-barrera-group',
     person: {
@@ -257,8 +247,41 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram:
-        'https://www.instagram.com/greenwayllc?igsh=MTRodHAzaGJqaTFuaw==',
+      instagram: 'https://www.instagram.com/fastway/',
+      linkedin: 'https://www.linkedin.com/company/fastway-sas/',
+    },
+  },
+
+  // === GROUP: Claudia Morales ===
+  {
+    slug: 'claudia-morales-group',
+    person: {
+      name: 'Claudia Morales',
+      title: 'Ejecutiva comercial',
+      company: '',
+      avatarUrl: './claudia.webp',
+    },
+    brand: {
+      logoUrl: './Fastway.png',
+      theme: 'group',
+      supportLogos: [
+        { url: './Green.png', href: 'https://www.greenwayinter.com/' },
+        { url: './Harvest.webp', href: 'https://metalharvest.io/' },
+      ],
+    },
+    about:
+      'Acompaño a los clientes desde la necesidad hasta la solución, construyendo relaciones de confianza y aportando valor para lograr negocios sostenibles.',
+    contact: {
+      phone: '+57 310 781 1985',
+      email: 'ejecutivacomercial@fastwaysas.com',
+      whatsapp: '+57 310 781 1985',
+      greeting:
+        'Hola Claudia, me gustaría recibir asesoría comercial y conocer las soluciones del grupo.',
+    },
+    socials: {
+      web: 'https://www.fastwaysas.com/',
+      facebook: 'https://www.facebook.com/Fastwaysas/',
+      instagram: 'https://www.instagram.com/fastway/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
