@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { getCards, getCardBySlug } from '../services/cards.service'
 import BusinessCard from '../components/BusinessCard/BusinessCard'
 import FastwayCard from '../components/BusinessCard/FastwayCard'
-import GroupFastwayCard from '../components/BusinessCard/Group-FastwayCard' // 👈 NUEVO
+import GroupFastwayCard from '../components/BusinessCard/Group-FastwayCard'
 import CardList from '../components/CardList'
 
 export default function CardsPage() {
