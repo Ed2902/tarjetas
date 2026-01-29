@@ -87,7 +87,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/es',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -116,7 +116,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/es',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -148,7 +148,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -181,7 +181,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -214,7 +214,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -247,7 +247,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
@@ -281,7 +281,7 @@ const cards = [
     socials: {
       web: 'https://www.fastwaysas.com/',
       facebook: 'https://www.facebook.com/Fastwaysas/',
-      instagram: 'https://www.instagram.com/fastway/',
+      instagram: 'https://www.instagram.com/fastwaybic/',
       linkedin: 'https://www.linkedin.com/company/fastway-sas/',
     },
   },
